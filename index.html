@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alternância da barra de navegação</title>
+    <title>Alternância da Barra de Navegação</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <!--Cria um container para o conteudo da pag-->
         <div class="theme-switch">
             <div class="switch"></div>
-            <!--Cria um elemento de comutação de tema (provavelmente um botão)-->
+        </div>
+        <div class="navigation">
+            <ul>
+                <a href="index.html" class="active" target="_blank">Página Inicial</a>
+                <a href="https://github.com/FilipeRoncolato" target="_blank">Sobre</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+            </ul>
         </div>
     </div>
-    <div class="navigation">
-       <!--Cria uma seção de navegação-->
-        <ul>
-        <!-- Cria uma ul par os links de navegation -->
-            <a href="index.html" class="active" target="_blank">Página inicial</a>
-        <!--Link para a pag inicial com classe (active) para destacar-->
-            <a href="https://github.com/FilipeRoncolato">Sobre</a>
-        <!--Link para a pag Sobre-->
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <!--Link para a pag do Insta-->
-        <a href="https://twitter.com" target="_blank">Twitter</a>
-
-        </ul>
-    </div>
-</div>
-
-<!--Javascript-->
-<script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.3.1/jquery.min.js*"></script>
-<script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
